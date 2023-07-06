@@ -9,7 +9,7 @@ function onBtnStart() {
     timerId = setInterval(changeBodyColor, 1000);
     btnStart.disabled = true;
     btnStop.disabled = false;
-    console.log(timerId);
+    // console.log(timerId);
 }
 
 function changeBodyColor() {
@@ -25,5 +25,5 @@ function onBtnStop() {
     clearInterval(timerId);
     btnStop.disabled = true;
     btnStart.disabled = false;
-    console.log(timerId);
+    // console.log(timerId);
 }
